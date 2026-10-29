@@ -1,0 +1,23 @@
+
+# AWS credentials and environment secrets
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
